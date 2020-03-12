@@ -61,6 +61,7 @@ The database chosen to load this data into was a non-relational database (Mongod
 Creating the database:
 * Establishing a connection to localhost (27017)
 * Create database called 'db'
+
 Create function 'insert_csv' to upload csv to mongo
 * two parameters (csv_name,collection_name)
 * set variable 'collection' to db.collection_name
@@ -69,12 +70,14 @@ Create function 'insert_csv' to upload csv to mongo
 * insert json data into the collection (i.e., variable 'collection')
 * query collection and set to results
 * print query with for statement
+
 Call functions for each dataset
 * Use insert_csv function with two arguments for each dataset
 * ('award_amount_coc',db.coc_award)
 * ('award_by_state',db.state_award)
 * ('state_population',db.state_pop)
 * ('2015-2018_homeless_data',db.homeless_data)
+
 Run example queries
 * Sample:
 * myquery = {'State':'UT'}
