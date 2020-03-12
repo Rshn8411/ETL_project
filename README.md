@@ -5,8 +5,8 @@ Jasmin Schaefer and Shaun Ramirez
 
 Scope: Build a database to be able to see the efficacy of spending on homelessness by state from 2015-2018. 
 
-Extract:
-Raw data for our project was extracted from the following sources:
+## Extract: ##
+Raw data for our project was extracted from the following sources and was obtained in excel (.xlsx) format:
 
     * 2007-2019 Point-in-Time Estimates by CoC - [hudexchange.info](https://www.hudexchange.info/resource/5948/2019-ahar-part-1-pit-estimates-of-homelessness-in-the-us/)
 
@@ -14,4 +14,5 @@ Raw data for our project was extracted from the following sources:
 
     * Award data by state - [hudexchange.info](https://www.hudexchange.info/grantees/allocations-awards)
 
-
+## Transform: ##
+For each data set that was obtained, a python environment was established, jupyter notebook was launched and the data was imported using the pandas library for python then cleaned. Cleaning for the 2007-2019 Point-in-Time Estimates by CoC data invlolved only importing the desired years 2015-1018. Once imported, null vaules were dropped and 
