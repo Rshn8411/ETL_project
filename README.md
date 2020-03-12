@@ -14,7 +14,7 @@ To clean data:
 1. Run the jupyter notebook file "Cleaning 2007-2019-PIT-Counts-by-CoC.ipynb"
 2. Run the jupyter notebook file "Cleaning 2010-2019_Population_Data.ipynb"
 3. Run the jupyter notebook file "Cost data.ipynb"
-4. Initialize Mongod in terminal/command line and run 'MongoDB.ipynb" to creat database
+4. Initialize Mongod in terminal/command line and run 'MongoDB.ipynb" to create database
 
 ## Extract: ##
 Raw data for our project was extracted from the following sources and was obtained in excel (.xlsx) format and saved in 'raw_data' folder:
