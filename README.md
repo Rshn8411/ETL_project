@@ -57,13 +57,7 @@ To execute the cleaning, run the jupyter notebook file "Cost data.ipynb"
 
 ## Load ##
 The database chosen to load this data into was a non-relational database (Mongodb).
-# MongoDB
-###Dependencies for MongoDB jupyter notebook
-## import
-* pymongo
-* os
-* pandas (as pd)
-* json
+
 Creating the database:
 * Establishing a connection to localhost (27017)
 * Create database called 'db'
